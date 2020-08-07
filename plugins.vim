@@ -7,8 +7,6 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'Syntastic'
 Plugin 'ctrlp.vim'
 Plugin 'fugitive.vim'
-Plugin 'nerdtree'
-Plugin 'vim-nerdtree-tabs'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'taglist.vim'
 Plugin 'christoomey/vim-tmux-navigator'
@@ -31,8 +29,6 @@ hi EasyMotionShade  ctermbg=none ctermfg=blue
 let g:syntastic_php_checkers = ['php', 'phpmd']
 let g:syntastic_ruby_mri_exec = 'ruby'
 let g:syntastic_javascript_checkers = ['eslint']
-
-nnoremap <Leader>nt :NERDTreeTabsToggle<CR>
 
 map <Leader>vp :VimuxPromptCommand<CR>
 map <Leader>vl :VimuxRunLastCommand<CR>
