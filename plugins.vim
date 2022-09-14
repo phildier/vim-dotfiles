@@ -16,6 +16,7 @@ Plugin 'joonty/vdebug'
 Plugin 'mxw/vim-jsx'
 Plugin 'godlygeek/tabular'
 Plugin 'hashivim/vim-terraform'
+Plugin 'tpope/vim-surround'
 call vundle#end()
 filetype plugin indent on
 
