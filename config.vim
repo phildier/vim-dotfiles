@@ -40,6 +40,9 @@ if !exists("config_loaded")
 	set splitright
 	map <Leader>tt :tabedit 
 
+	set noerrorbells
+	set visualbell
+
 	" disable help key
 	inoremap <F1> <ESC>
 	nnoremap <F1> <ESC>
