@@ -48,6 +48,10 @@ if !exists("config_loaded")
 	set wildignore+=*/vendor/*,*/node_modules/*,*/puppet/modules/*
 	au BufNewFile,BufRead *nagios/*.cfg set filetype=nagios
 
+	au BufNewFile,BufRead *.go setlocal noet ts=4 sw=4 sts=4 nolist
+	au BufNewFile,BufRead Makefile setlocal noet ts=4 sw=4 sts=4 nolist
+	au BufNewFile,BufRead *.hcl setlocal noet ts=2 sw=2 sts=2 nolist
+
 	map! <Leader>u <C-R>=system('uuid \| xargs echo -n')<CR>
 	let config_loaded = 1
 endif
