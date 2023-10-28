@@ -41,7 +41,7 @@ if !exists("config_loaded")
 	map <Leader>tt :tabedit 
 
 	set noerrorbells
-	set visualbell
+	set novisualbell
 
 	" disable help key
 	inoremap <F1> <ESC>

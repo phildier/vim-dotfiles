@@ -1,23 +1,25 @@
 filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
-Plugin 'Syntastic'
-Plugin 'ctrlp.vim'
-Plugin 'fugitive.vim'
-Plugin 'scrooloose/nerdcommenter'
-Plugin 'taglist.vim'
-Plugin 'christoomey/vim-tmux-navigator'
-Plugin 'benmills/vimux'
-Plugin 'mhinz/vim-startify'
-Plugin 'joonty/vdebug'
-Plugin 'mxw/vim-jsx'
-Plugin 'godlygeek/tabular'
-Plugin 'hashivim/vim-terraform'
-Plugin 'tpope/vim-surround'
-call vundle#end()
+call plug#begin('~/.vim/bundle')
+
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'vim-syntastic/syntastic'
+Plug 'kien/ctrlp.vim'
+" Plug 'topope/fugitive'
+Plug 'scrooloose/nerdcommenter'
+Plug 'vim-scripts/taglist.vim'
+Plug 'christoomey/vim-tmux-navigator'
+Plug 'benmills/vimux'
+Plug 'mhinz/vim-startify'
+" Plug 'joonty/vdebug'
+Plug 'mxw/vim-jsx'
+Plug 'godlygeek/tabular'
+Plug 'hashivim/vim-terraform'
+Plug 'tpope/vim-surround'
+Plug 'github/copilot.vim'
+
+call plug#end()
+
 filetype plugin indent on
 
 " make vim-airline appear always
@@ -30,6 +32,7 @@ hi EasyMotionShade  ctermbg=none ctermfg=blue
 let g:syntastic_php_checkers = ['php', 'phpmd']
 let g:syntastic_ruby_mri_exec = 'ruby'
 let g:syntastic_javascript_checkers = ['eslint']
+let g:syntastic_yaml_checkers = [ "yamllint" ]
 
 map <Leader>vp :VimuxPromptCommand<CR>
 map <Leader>vl :VimuxRunLastCommand<CR>
