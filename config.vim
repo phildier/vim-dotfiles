@@ -2,8 +2,11 @@ if !exists("config_loaded")
 	syntax enable
 	set nocompatible
 	set bs=2
+
 	set tabstop=4
 	set shiftwidth=4
+	set et
+
 	set undolevels=1000
 	set background=dark
 	set nohlsearch
@@ -42,6 +45,7 @@ if !exists("config_loaded")
 
 	set noerrorbells
 	set novisualbell
+    set belloff=all
 
 	" disable help key
 	inoremap <F1> <ESC>
