@@ -3,6 +3,7 @@ if !exists("config_loaded")
 	set nocompatible
 	set bs=2
 	set tabstop=4
+	set et
 	set shiftwidth=4
 	set undolevels=1000
 	set background=dark
