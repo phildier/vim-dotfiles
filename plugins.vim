@@ -17,6 +17,7 @@ Plug 'godlygeek/tabular'
 Plug 'hashivim/vim-terraform'
 Plug 'tpope/vim-surround'
 Plug 'github/copilot.vim'
+Plug 'madox2/vim-ai'
 
 call plug#end()
 
