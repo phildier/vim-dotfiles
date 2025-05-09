@@ -4,6 +4,7 @@ if !exists("config_loaded")
 	set bs=2
 
 	set tabstop=4
+	set et
 	set shiftwidth=4
 	set et
 
