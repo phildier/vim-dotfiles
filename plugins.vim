@@ -1,6 +1,7 @@
 filetype off
 call plug#begin('~/.vim/bundle')
 
+" run :PlugInstall to install
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-syntastic/syntastic'
@@ -18,6 +19,7 @@ Plug 'hashivim/vim-terraform'
 Plug 'tpope/vim-surround'
 Plug 'github/copilot.vim'
 Plug 'madox2/vim-ai'
+Plug 'jvirtanen/vim-hcl'
 
 call plug#end()
 

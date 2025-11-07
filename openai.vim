@@ -1,4 +1,5 @@
 let g:vim_ai_roles_config_file = '/home/phil/.vim/openai/roles.ini'
+let g:vim_ai_python = '/home/phil/.asdf/shims/python'
 
 nnoremap <leader>a :AI<CR>
 
