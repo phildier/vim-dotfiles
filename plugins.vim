@@ -25,7 +25,7 @@ call plug#end()
 filetype plugin indent on
 
 " specify node path for copilot
-let g:copilot_node_command = "/home/phil/.asdf/installs/nodejs/16.20.2/bin/node"
+let g:copilot_node_command = "/home/phil/.asdf/installs/nodejs/22.15.0/bin/node"
 
 " make vim-airline appear always
 set laststatus=2
