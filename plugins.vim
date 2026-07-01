@@ -19,13 +19,14 @@ Plug 'tpope/vim-surround'
 Plug 'github/copilot.vim'
 Plug 'madox2/vim-ai'
 Plug 'jvirtanen/vim-hcl'
+Plug 'fatih/vim-go'
 
 call plug#end()
 
 filetype plugin indent on
 
 " specify node path for copilot
-let g:copilot_node_command = "/home/phil/.asdf/installs/nodejs/22.15.0/bin/node"
+let g:copilot_node_command = "/home/phil/.asdf/shims/node"
 
 " make vim-airline appear always
 set laststatus=2

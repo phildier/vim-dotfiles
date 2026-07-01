@@ -2,3 +2,4 @@ source ~/.vim/config.vim
 source ~/.vim/plugins.vim
 source ~/.vim/autocommands.vim
 source ~/.vim/functions.vim
+source ~/.vim/openai.vim
